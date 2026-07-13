@@ -9,5 +9,6 @@ export default defineConfig({
       "polished-belkis-nonpreferably.ngrok-free.dev"
     ],
     host: true
-  }
+  },
+  base: '/My_Portfolio/'
 })

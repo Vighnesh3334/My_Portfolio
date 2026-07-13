@@ -9,6 +9,11 @@ import Skill from "./skill.jsx";
 import Contactme from "./contact.jsx"
 import AppMarquee from "./marquee.jsx";
 import ProjectSlider from "./slider.jsx";
+import profile from "./assets/pr3.png"
+import img1 from "./assets/ChatGPT\ Image\ Jun\ 7\,\ 2026\,\ 12_44_42\ AM.png"
+import img2 from "./assets/nlp.jpeg";
+import img3 from "./assets/tran2.jpeg";
+import img4 from "./assets/trans3.jpeg";
 function App() {
      const [index, setIndex] = useState(0);
      const [scale, setScale] = useState(1);
@@ -42,12 +47,7 @@ function App() {
     };
   }, []);
 
-  const images = [robo,
-    "https://cdn.corenexis.com/files/c/3389961720.jpg",
-    "https://cdn.corenexis.com/files/c/2359521720.jpg",
-    "https://cdn.corenexis.com/files/c/2756947720.jpg",
-    "https://cdn.corenexis.com/files/c/7676548720.jpg ",
-  ];
+  const images = [robo,img1,img2,img3,img4,];
 
   useEffect(() => {
     let i = 0;
@@ -63,7 +63,7 @@ function App() {
   useEffect(() => {
     const handleScroll = () => {
       const scrollY = window.scrollY;
-      const x_motion = 270-(scrollY / 18);
+      const x_motion = 330-(scrollY / 18);
       setxmotion(x_motion);
     };
 
@@ -82,7 +82,7 @@ function App() {
               transform:`translateY(${motion}px)`,
               transition:`transform 0.1s linear`
           }}>
-            <img className="profile-pic" src="https://cdn.corenexis.com/files/c/8763479720.png" />
+            <img className="profile-pic" src={profile} />
             <div className="circle_light"></div>
             <h1>Hi, I'm Vighnesh M S</h1>
           </div>

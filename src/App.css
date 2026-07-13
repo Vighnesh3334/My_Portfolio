@@ -90,7 +90,7 @@ body{
     position: relative;
     width: 100%;
     height: 100vh;
-    background-image: url("https://cdn.corenexis.com/files/c/7866553720.png");
+    background-image: url("./assets/background.jpeg");
     background-size: cover;
     opacity: 0.8;
     top: 0px;
@@ -507,7 +507,7 @@ content: "";
     color: white;
 }
 .slider-container{
-    background-image:url("https://cdn.corenexis.com/files/c/7234361720.png");
+    background-image:url("./assets/ChatGPT\ Image\ Jun\ 7\,\ 2026\,\ 12_44_42\ AM.png");
     height: 500px;
 
 }
@@ -516,7 +516,7 @@ content: "";
     width: 100%;
     /* height: auto; */
     margin-top: 100px;
-    background: url("https://cdn.corenexis.com/files/c/8478339720.png");
+    background: url("./assets/ChatGPT\ Image\ Jun\ 6\,\ 2026\,\ 09_55_01\ PM.png");
     background-size: fill;
     background-position: center;
     background-repeat: no-repeat;
